@@ -13,7 +13,6 @@ const [cartData, setCartData] = useState([]);
 useEffect(() => {
 
       if (products.length > 0) {
-        console.log(products.length)
         const tempData = [];
         for(const items in cartItems){
           for(const item in cartItems[items]){
